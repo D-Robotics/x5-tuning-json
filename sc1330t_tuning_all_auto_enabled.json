@@ -7,10 +7,10 @@
     "generator_version": "v2.1.4",
     "resolution": [
       {
-        "name": "640x480",
+        "name": "1280x960",
         "id": "0x00000001",
-        "width": 640,
-        "height": 480,
+        "width": 1280,
+        "height": 960,
         "framerate": [
           {
             "name": "FPS_15",
@@ -32,8 +32,8 @@
     "AWB": {
       "globals": [
         {
-          "name": "640x480",
-          "resolution": "640x480",
+          "name": "1280x960",
+          "resolution": "1280x960",
           "SVDMeanValue": [
             0.2894, 0.4519, 0.2588
           ],
@@ -149,8 +149,8 @@
           },
           "aLSC": [
             {
-              "resolution": "640x480",
-              "LSC_PROFILE_LIST": "640x480_A_30"
+              "resolution": "1280x960",
+              "LSC_PROFILE_LIST": "1280x960_A_30"
             }
           ],
           "manualWB": [
@@ -213,8 +213,8 @@
           },
           "aLSC": [
             {
-              "resolution": "640x480",
-              "LSC_PROFILE_LIST": "640x480_D50_30"
+              "resolution": "1280x960",
+              "LSC_PROFILE_LIST": "1280x960_D50_30"
             }
           ],
           "manualWB": [
@@ -277,8 +277,8 @@
           },
           "aLSC": [
             {
-              "resolution": "640x480",
-              "LSC_PROFILE_LIST": "640x480_D65_30"
+              "resolution": "1280x960",
+              "LSC_PROFILE_LIST": "1280x960_D65_30"
             }
           ],
           "manualWB": [
@@ -341,8 +341,8 @@
           },
           "aLSC": [
             {
-              "resolution": "640x480",
-              "LSC_PROFILE_LIST": "640x480_D75_30"
+              "resolution": "1280x960",
+              "LSC_PROFILE_LIST": "1280x960_D75_30"
             }
           ],
           "manualWB": [
@@ -405,8 +405,8 @@
           },
           "aLSC": [
             {
-              "resolution": "640x480",
-              "LSC_PROFILE_LIST": "640x480_H_30"
+              "resolution": "1280x960",
+              "LSC_PROFILE_LIST": "1280x960_H_30"
             }
           ],
           "manualWB": [
@@ -469,8 +469,8 @@
           },
           "aLSC": [
             {
-              "resolution": "640x480",
-              "LSC_PROFILE_LIST": "640x480_F2_30"
+              "resolution": "1280x960",
+              "LSC_PROFILE_LIST": "1280x960_F2_30"
             }
           ],
           "manualWB": [
@@ -533,8 +533,8 @@
           },
           "aLSC": [
             {
-              "resolution": "640x480",
-              "LSC_PROFILE_LIST": "640x480_F11_30"
+              "resolution": "1280x960",
+              "LSC_PROFILE_LIST": "1280x960_F11_30"
             }
           ],
           "manualWB": [
@@ -579,8 +579,8 @@
     },
     "LSC": [
       {
-        "name": "640x480_A_30",
-        "resolution": "640x480",
+        "name": "1280x960_A_30",
+        "resolution": "1280x960",
         "illumination": "A",
         "LSC_sectors": 32,
         "LSC_No": 10,
@@ -1401,8 +1401,8 @@
         ]
       },
       {
-        "name": "640x480_D50_30",
-        "resolution": "640x480",
+        "name": "1280x960_D50_30",
+        "resolution": "1280x960",
         "illumination": "D50",
         "LSC_sectors": 32,
         "LSC_No": 10,
@@ -2223,8 +2223,8 @@
         ]
       },
       {
-        "name": "640x480_D65_30",
-        "resolution": "640x480",
+        "name": "1280x960_D65_30",
+        "resolution": "1280x960",
         "illumination": "D65",
         "LSC_sectors": 32,
         "LSC_No": 10,
@@ -3045,8 +3045,8 @@
         ]
       },
       {
-        "name": "640x480_D75_30",
-        "resolution": "640x480",
+        "name": "1280x960_D75_30",
+        "resolution": "1280x960",
         "illumination": "D75",
         "LSC_sectors": 32,
         "LSC_No": 10,
@@ -3867,8 +3867,8 @@
         ]
       },
       {
-        "name": "640x480_F11_30",
-        "resolution": "640x480",
+        "name": "1280x960_F11_30",
+        "resolution": "1280x960",
         "illumination": "F11",
         "LSC_sectors": 32,
         "LSC_No": 10,
@@ -4689,8 +4689,8 @@
         ]
       },
       {
-        "name": "640x480_F2_30",
-        "resolution": "640x480",
+        "name": "1280x960_F2_30",
+        "resolution": "1280x960",
         "illumination": "F2",
         "LSC_sectors": 32,
         "LSC_No": 10,
@@ -5511,8 +5511,8 @@
         ]
       },
       {
-        "name": "640x480_H_30",
-        "resolution": "640x480",
+        "name": "1280x960_H_30",
+        "resolution": "1280x960",
         "illumination": "H",
         "LSC_sectors": 32,
         "LSC_No": 10,
@@ -6491,7 +6491,7 @@
       "DampUnderVideo": 0.9000,
       "ECM": [
         {
-          "name": "640x480_FPS_15",
+          "name": "1280x960_FPS_15",
           "PrioritySchemes": [
             {
               "name": "fast",
@@ -6511,7 +6511,7 @@
           ]
         },
         {
-          "name": "640x480_FPS_10",
+          "name": "1280x960_FPS_10",
           "PrioritySchemes": [
             {
               "name": "fast",
@@ -6531,7 +6531,7 @@
           ]
         },
         {
-          "name": "640x480_FPS_05",
+          "name": "1280x960_FPS_05",
           "PrioritySchemes": [
             {
               "name": "fast",
@@ -6555,8 +6555,8 @@
     },
     "BLS": [
       {
-        "name": "640x480",
-        "resolution": "640x480",
+        "name": "1280x960",
+        "resolution": "1280x960",
         "blsData": [
           272, 272, 272, 272
         ]
@@ -6607,8 +6607,8 @@
     },
     "CAC": [
       {
-        "name": "640x480",
-        "resolution": "640x480",
+        "name": "1280x960",
+        "resolution": "1280x960",
         "x_normshift": 5.0000,
         "x_normfactor": 20.0000,
         "y_normshift": 5.0000,
@@ -6625,8 +6625,8 @@
     ],
     "DPF": [
       {
-        "name": "640x480",
-        "resolution": "640x480",
+        "name": "1280x960",
+        "resolution": "1280x960",
         "NLL_SEGMENTATION": 1.0000,
         "nll_coeff_n": [
           1023, 1023, 891, 727, 630, 514, 445, 398, 364, 315,
@@ -6646,8 +6646,8 @@
     ],
     "DPCC": [
       {
-        "name": "640x480",
-        "resolution": "640x480",
+        "name": "1280x960",
+        "resolution": "1280x960",
         "register": [
           {
             "name": "ISP_DPCC_LINE_MAD_FAC_1",
@@ -6898,7 +6898,7 @@
       "sadWeight": 12,
       "sqrDiffFactor": 7,
       "thrMotionSlope": 64,
-      "isTnr": false,
+      "isTnr": true,
       "tnrLumaCurveX": [
         64, 192, 448, 704, 832, 1088, 1344, 1856, 1984, 3008,
         3520, 4032
@@ -11190,7 +11190,7 @@
       ]
     },
     "ABLS": {
-      "isEnable": false,
+      "isEnable": true,
       "forceCreate": true,
       "tables": [
         {
@@ -11408,7 +11408,7 @@
       "tables": [
         {
           "bright": [
-            0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+            0.0000, 0, 0, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
             0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000
           ],
           "contrast": [
@@ -15069,7 +15069,7 @@
       "dampUnderGain": 1.0000,
       "dampUnderRatio": 0.5000,
       "dGain": [
-        1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000, 1.0000
+        1.0000, 2.0000, 4.0000, 8.0000, 1.0000, 1.0000, 1.0000, 1.0000
       ],
       "exposureTime": [
        0.005, 0.010, 0.020, 0.030, 0.030, 0.030, 0.030, 0.030, 0.030, 0.030
@@ -22083,12 +22083,12 @@
           "bayerPattern": 0,
           "format": 0,
           "rectangle": {
-            "height": 480,
+            "height": 960,
             "offset": {
               "x": 0,
               "y": 0
             },
-            "width": 640
+            "width": 1280
           },
           "stitchingMode": 0
         }
@@ -22096,7 +22096,7 @@
       "type": 1
     },
     "LSC_3": {
-      "isEnable": false,
+      "isEnable": true,
       "matrix": [
         [
           1372, 1425, 1421, 1375, 1361, 1308, 1287, 1273, 1249, 1241,
@@ -22561,12 +22561,12 @@
           "bitsIndex": 0,
           "format": 5,
           "rectangle": {
-            "height": 480,
+            "height": 960,
             "offset": {
               "x": 0,
               "y": 0
             },
-            "width": 640
+            "width": 1280
           }
         },
         {
