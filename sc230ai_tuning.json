@@ -21179,7 +21179,7 @@
         64.0000, 8.0000, 4.0000
       ],
       "cnrStrength": 128,
-      "isEnable": true,
+      "isEnable": false,
       "textureMaskSelect": 0
     },
     "CP_1_2": {
