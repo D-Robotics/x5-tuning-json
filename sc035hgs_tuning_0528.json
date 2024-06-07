@@ -2,15 +2,15 @@
   "header": {
     "creation_date": "12-Dec-2023",
     "creator": "Ting",
-    "sensor_name": "sc230ai",
+    "sensor_name": "sc035hgs",
     "sample_name": "Default_Lens_03",
     "generator_version": "v2.1.4",
     "resolution": [
       {
-        "name": "1920x1080",
+        "name": "640x480",
         "id": "0x00000001",
-        "width": 1920,
-        "height": 1080,
+        "width": 640,
+        "height": 480,
         "framerate": [
           {
             "name": "FPS_15",
@@ -32,8 +32,8 @@
     "AWB": {
       "globals": [
         {
-          "name": "1920x1080",
-          "resolution": "1920x1080",
+          "name": "640x480",
+          "resolution": "640x480",
           "SVDMeanValue": [
             0.2894, 0.4519, 0.2588
           ],
@@ -149,8 +149,8 @@
           },
           "aLSC": [
             {
-              "resolution": "1920x1080",
-              "LSC_PROFILE_LIST": "1920x1080_A_30"
+              "resolution": "640x480",
+              "LSC_PROFILE_LIST": "640x480_A_30"
             }
           ],
           "manualWB": [
@@ -213,8 +213,8 @@
           },
           "aLSC": [
             {
-              "resolution": "1920x1080",
-              "LSC_PROFILE_LIST": "1920x1080_D50_30"
+              "resolution": "640x480",
+              "LSC_PROFILE_LIST": "640x480_D50_30"
             }
           ],
           "manualWB": [
@@ -277,8 +277,8 @@
           },
           "aLSC": [
             {
-              "resolution": "1920x1080",
-              "LSC_PROFILE_LIST": "1920x1080_D65_30"
+              "resolution": "640x480",
+              "LSC_PROFILE_LIST": "640x480_D65_30"
             }
           ],
           "manualWB": [
@@ -341,8 +341,8 @@
           },
           "aLSC": [
             {
-              "resolution": "1920x1080",
-              "LSC_PROFILE_LIST": "1920x1080_D75_30"
+              "resolution": "640x480",
+              "LSC_PROFILE_LIST": "640x480_D75_30"
             }
           ],
           "manualWB": [
@@ -405,8 +405,8 @@
           },
           "aLSC": [
             {
-              "resolution": "1920x1080",
-              "LSC_PROFILE_LIST": "1920x1080_H_30"
+              "resolution": "640x480",
+              "LSC_PROFILE_LIST": "640x480_H_30"
             }
           ],
           "manualWB": [
@@ -469,8 +469,8 @@
           },
           "aLSC": [
             {
-              "resolution": "1920x1080",
-              "LSC_PROFILE_LIST": "1920x1080_F2_30"
+              "resolution": "640x480",
+              "LSC_PROFILE_LIST": "640x480_F2_30"
             }
           ],
           "manualWB": [
@@ -533,8 +533,8 @@
           },
           "aLSC": [
             {
-              "resolution": "1920x1080",
-              "LSC_PROFILE_LIST": "1920x1080_F11_30"
+              "resolution": "640x480",
+              "LSC_PROFILE_LIST": "640x480_F11_30"
             }
           ],
           "manualWB": [
@@ -579,8 +579,8 @@
     },
     "LSC": [
       {
-        "name": "1920x1080_A_30",
-        "resolution": "1920x1080",
+        "name": "640x480_A_30",
+        "resolution": "640x480",
         "illumination": "A",
         "LSC_sectors": 32,
         "LSC_No": 10,
@@ -1401,8 +1401,8 @@
         ]
       },
       {
-        "name": "1920x1080_D50_30",
-        "resolution": "1920x1080",
+        "name": "640x480_D50_30",
+        "resolution": "640x480",
         "illumination": "D50",
         "LSC_sectors": 32,
         "LSC_No": 10,
@@ -2223,8 +2223,8 @@
         ]
       },
       {
-        "name": "1920x1080_D65_30",
-        "resolution": "1920x1080",
+        "name": "640x480_D65_30",
+        "resolution": "640x480",
         "illumination": "D65",
         "LSC_sectors": 32,
         "LSC_No": 10,
@@ -3045,8 +3045,8 @@
         ]
       },
       {
-        "name": "1920x1080_D75_30",
-        "resolution": "1920x1080",
+        "name": "640x480_D75_30",
+        "resolution": "640x480",
         "illumination": "D75",
         "LSC_sectors": 32,
         "LSC_No": 10,
@@ -3867,8 +3867,8 @@
         ]
       },
       {
-        "name": "1920x1080_F11_30",
-        "resolution": "1920x1080",
+        "name": "640x480_F11_30",
+        "resolution": "640x480",
         "illumination": "F11",
         "LSC_sectors": 32,
         "LSC_No": 10,
@@ -4689,8 +4689,8 @@
         ]
       },
       {
-        "name": "1920x1080_F2_30",
-        "resolution": "1920x1080",
+        "name": "640x480_F2_30",
+        "resolution": "640x480",
         "illumination": "F2",
         "LSC_sectors": 32,
         "LSC_No": 10,
@@ -5511,8 +5511,8 @@
         ]
       },
       {
-        "name": "1920x1080_H_30",
-        "resolution": "1920x1080",
+        "name": "640x480_H_30",
+        "resolution": "640x480",
         "illumination": "H",
         "LSC_sectors": 32,
         "LSC_No": 10,
@@ -6491,7 +6491,7 @@
       "DampUnderVideo": 0.9,
       "ECM": [
         {
-          "name": "1920x1080_FPS_15",
+          "name": "640x480_FPS_15",
           "PrioritySchemes": [
             {
               "name": "fast",
@@ -6511,7 +6511,7 @@
           ]
         },
         {
-          "name": "1920x1080_FPS_10",
+          "name": "640x480_FPS_10",
           "PrioritySchemes": [
             {
               "name": "fast",
@@ -6531,7 +6531,7 @@
           ]
         },
         {
-          "name": "1920x1080_FPS_05",
+          "name": "640x480_FPS_05",
           "PrioritySchemes": [
             {
               "name": "fast",
@@ -6555,10 +6555,10 @@
     },
     "BLS": [
       {
-        "name": "1920x1080",
-        "resolution": "1920x1080",
+        "name": "640x480",
+        "resolution": "640x480",
         "blsData": [
-          272, 272, 272, 272
+          64, 64, 64, 64
         ]
       }
     ],
@@ -6607,8 +6607,8 @@
     },
     "CAC": [
       {
-        "name": "1920x1080",
-        "resolution": "1920x1080",
+        "name": "640x480",
+        "resolution": "640x480",
         "x_normshift": 5.0,
         "x_normfactor": 20.0,
         "y_normshift": 5.0,
@@ -6625,8 +6625,8 @@
     ],
     "DPF": [
       {
-        "name": "1920x1080",
-        "resolution": "1920x1080",
+        "name": "640x480",
+        "resolution": "640x480",
         "NLL_SEGMENTATION": 1.0,
         "nll_coeff_n": [
           1023, 1023, 891, 727, 630, 514, 445, 398, 364, 315,
@@ -6646,8 +6646,8 @@
     ],
     "DPCC": [
       {
-        "name": "1920x1080",
-        "resolution": "1920x1080",
+        "name": "640x480",
+        "resolution": "640x480",
         "register": [
           {
             "name": "ISP_DPCC_LINE_MAD_FAC_1",
@@ -6752,7 +6752,7 @@
   },
   "tuning": {
     "2DNR_6": {
-      "state": 0,
+      "state": 2,
       "blendMotion": 100.0,
       "blendSlope": 16.0,
       "blendStatic": 20.0,
@@ -6877,16 +6877,16 @@
       "vstFactor": 16.0
     },
     "3DNR_4": {
-      "state": 1,
+      "state": 2,
       "blsExp": [
-        0, 0, 0, 0
+        64, 64, 64, 64
       ],
       "dilateH": 0,
       "diffType": 1,
       "filterLen": 20,
       "filterLen2": 4,
       "fixCurveStart": 256,
-      "isGammaFeBe": false,
+      "isGammaFeBe": true,
       "isGaussBlur": true,
       "inputBits": 20,
       "isMotionDilate": false,
@@ -10568,64 +10568,64 @@
         {
           "blsExp": [
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ]
           ],
           "dilateH": [
@@ -11186,55 +11186,55 @@
         {
           "bls": [
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
-              0, 0, 0, 0
+              64, 64, 64, 64
             ],
             [
               0, 0, 0, 0
@@ -15340,7 +15340,7 @@
         ]
       ],
       "semMode": 0,
-      "setPoint": 50.0,
+      "setPoint": 25.0,
       "targetFilter": 0.5,
       "tolerance": 5.0,
       "wdrContrastMax": 110.0,
@@ -16104,7 +16104,7 @@
       "awbEnterLockThreshold": 0.03,
       "awbEnterUnlockThreshold": 0.02,
       "awbTemWeight": [
-        0.0, 0.7325, 0.0, 0.0, 0.0, 0.0905, 0.177
+        0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
       ],
       "faceAwbBg": 1.0,
       "confidenceThreshold": [
@@ -17534,7 +17534,7 @@
     "CCM": {
       "state": 1,
       "ccMatrix": [
-        1.8364, -0.5518, -0.2845, -0.4109, 1.6294, -0.2186, 0.0572, -0.8335, 1.7763
+        1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0
       ],
       "ccOffset": [
         0.0, 0.0, 0.0
@@ -17550,7 +17550,7 @@
       "textureMaskSelect": 0
     },
     "CP_1_2": {
-      "state": 1,
+      "state": 2,
       "bright": 0.0,
       "contrast": 1.1,
       "hue": 0.0,
@@ -18066,7 +18066,7 @@
       "setUse": 7
     },
     "DMSC_3": {
-      "state": 1,
+      "state": 2,
       "adaptCoefficientMax": 128,
       "adaptCoefficientMin": 128,
       "adaptCoefficientMode": 3,
@@ -18207,7 +18207,7 @@
       "registers": null
     },
     "EE_3": {
-      "state": 1,
+      "state": 2,
       "isCa": true,
       "caCurve": [
         512, 620, 700, 750, 790, 820, 860, 920, 940, 958,
@@ -18290,7 +18290,7 @@
       "isYuvDomain": false
     },
     "EC_2": {
-      "state": 0,
+      "state": 2,
       "gain": {
         "analog": [
           1.0, 0.0, 0.0, 0.0
@@ -18309,7 +18309,7 @@
       "position": 0
     },
     "GC_2": {
-      "state": 1,
+      "state": 2,
       "curve": [
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -18443,12 +18443,12 @@
           "isEnable": false,
           "format": 0,
           "rectangle": {
-            "height": 960,
+            "height": 480,
             "offset": {
               "x": 0,
               "y": 0
             },
-            "width": 1280
+            "width": 640
           },
           "stitchingMode": 0
         },
@@ -18939,12 +18939,12 @@
           "isEnable": true,
           "format": 5,
           "rectangle": {
-            "height": 960,
+            "height": 480,
             "offset": {
               "x": 0,
               "y": 0
             },
-            "width": 1280
+            "width": 640
           }
         },
         {
@@ -19020,11 +19020,11 @@
     "WB_1_1": {
       "state": 1,
       "gain": [
-        1.5928, 1.0156, 1.0156, 2.127
+        1.0, 1.0, 1.0, 1.0
       ]
     },
     "WDR_5_2_1": {
-      "state": 0,
+      "state": 2,
       "contrast": 500,
       "curve2HiFactor": 1.0,
       "curve2LoFactor": 1.0,
