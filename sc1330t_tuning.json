@@ -21979,6 +21979,7 @@
       "threshold": 0.8000
     },
     "HDR_3_2DOL": {
+      "state": 0, "option": "0-off,1-manual",
       "bypass": false,
       "bypassSelect": 0,
       "colorWeight": [
@@ -21998,7 +21999,6 @@
         "motionLowerThreshold": 32,
         "motionUpperThreshold": 256
       },
-      "isEnable": false,
       "extendBit": [
         -1, -1
       ],
