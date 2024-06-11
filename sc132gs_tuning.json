@@ -7,10 +7,10 @@
     "generator_version": "v2.1.4",
     "resolution": [
       {
-        "name": "896x896",
+        "name": "1088x1280",
         "id": "0x00000001",
-        "width": 896,
-        "height": 896,
+        "width": 1088,
+        "height": 1280,
         "framerate": [
           {
             "name": "FPS_15",
@@ -32,8 +32,8 @@
     "AWB": {
       "globals": [
         {
-          "name": "896x896",
-          "resolution": "896x896",
+          "name": "1088x1280",
+          "resolution": "1088x1280",
           "SVDMeanValue": [
             0.2894, 0.4519, 0.2588
           ],
@@ -149,8 +149,8 @@
           },
           "aLSC": [
             {
-              "resolution": "896x896",
-              "LSC_PROFILE_LIST": "896x896_A_30"
+              "resolution": "1088x1280",
+              "LSC_PROFILE_LIST": "1088x1280_A_30"
             }
           ],
           "manualWB": [
@@ -213,8 +213,8 @@
           },
           "aLSC": [
             {
-              "resolution": "896x896",
-              "LSC_PROFILE_LIST": "896x896_D50_30"
+              "resolution": "1088x1280",
+              "LSC_PROFILE_LIST": "1088x1280_D50_30"
             }
           ],
           "manualWB": [
@@ -277,8 +277,8 @@
           },
           "aLSC": [
             {
-              "resolution": "896x896",
-              "LSC_PROFILE_LIST": "896x896_D65_30"
+              "resolution": "1088x1280",
+              "LSC_PROFILE_LIST": "1088x1280_D65_30"
             }
           ],
           "manualWB": [
@@ -341,8 +341,8 @@
           },
           "aLSC": [
             {
-              "resolution": "896x896",
-              "LSC_PROFILE_LIST": "896x896_D75_30"
+              "resolution": "1088x1280",
+              "LSC_PROFILE_LIST": "1088x1280_D75_30"
             }
           ],
           "manualWB": [
@@ -405,8 +405,8 @@
           },
           "aLSC": [
             {
-              "resolution": "896x896",
-              "LSC_PROFILE_LIST": "896x896_H_30"
+              "resolution": "1088x1280",
+              "LSC_PROFILE_LIST": "1088x1280_H_30"
             }
           ],
           "manualWB": [
@@ -469,8 +469,8 @@
           },
           "aLSC": [
             {
-              "resolution": "896x896",
-              "LSC_PROFILE_LIST": "896x896_F2_30"
+              "resolution": "1088x1280",
+              "LSC_PROFILE_LIST": "1088x1280_F2_30"
             }
           ],
           "manualWB": [
@@ -533,8 +533,8 @@
           },
           "aLSC": [
             {
-              "resolution": "896x896",
-              "LSC_PROFILE_LIST": "896x896_F11_30"
+              "resolution": "1088x1280",
+              "LSC_PROFILE_LIST": "1088x1280_F11_30"
             }
           ],
           "manualWB": [
@@ -579,8 +579,8 @@
     },
     "LSC": [
       {
-        "name": "896x896_A_30",
-        "resolution": "896x896",
+        "name": "1088x1280_A_30",
+        "resolution": "1088x1280",
         "illumination": "A",
         "LSC_sectors": 32,
         "LSC_No": 10,
@@ -1401,8 +1401,8 @@
         ]
       },
       {
-        "name": "896x896_D50_30",
-        "resolution": "896x896",
+        "name": "1088x1280_D50_30",
+        "resolution": "1088x1280",
         "illumination": "D50",
         "LSC_sectors": 32,
         "LSC_No": 10,
@@ -2223,8 +2223,8 @@
         ]
       },
       {
-        "name": "896x896_D65_30",
-        "resolution": "896x896",
+        "name": "1088x1280_D65_30",
+        "resolution": "1088x1280",
         "illumination": "D65",
         "LSC_sectors": 32,
         "LSC_No": 10,
@@ -3045,8 +3045,8 @@
         ]
       },
       {
-        "name": "896x896_D75_30",
-        "resolution": "896x896",
+        "name": "1088x1280_D75_30",
+        "resolution": "1088x1280",
         "illumination": "D75",
         "LSC_sectors": 32,
         "LSC_No": 10,
@@ -3867,8 +3867,8 @@
         ]
       },
       {
-        "name": "896x896_F11_30",
-        "resolution": "896x896",
+        "name": "1088x1280_F11_30",
+        "resolution": "1088x1280",
         "illumination": "F11",
         "LSC_sectors": 32,
         "LSC_No": 10,
@@ -4689,8 +4689,8 @@
         ]
       },
       {
-        "name": "896x896_F2_30",
-        "resolution": "896x896",
+        "name": "1088x1280_F2_30",
+        "resolution": "1088x1280",
         "illumination": "F2",
         "LSC_sectors": 32,
         "LSC_No": 10,
@@ -5511,8 +5511,8 @@
         ]
       },
       {
-        "name": "896x896_H_30",
-        "resolution": "896x896",
+        "name": "1088x1280_H_30",
+        "resolution": "1088x1280",
         "illumination": "H",
         "LSC_sectors": 32,
         "LSC_No": 10,
@@ -6491,7 +6491,7 @@
       "DampUnderVideo": 0.9,
       "ECM": [
         {
-          "name": "896x896_FPS_15",
+          "name": "1088x1280_FPS_15",
           "PrioritySchemes": [
             {
               "name": "fast",
@@ -6511,7 +6511,7 @@
           ]
         },
         {
-          "name": "896x896_FPS_10",
+          "name": "1088x1280_FPS_10",
           "PrioritySchemes": [
             {
               "name": "fast",
@@ -6531,7 +6531,7 @@
           ]
         },
         {
-          "name": "896x896_FPS_05",
+          "name": "1088x1280_FPS_05",
           "PrioritySchemes": [
             {
               "name": "fast",
@@ -6555,8 +6555,8 @@
     },
     "BLS": [
       {
-        "name": "896x896",
-        "resolution": "896x896",
+        "name": "1088x1280",
+        "resolution": "1088x1280",
         "blsData": [
           272, 272, 272, 272
         ]
@@ -6607,8 +6607,8 @@
     },
     "CAC": [
       {
-        "name": "896x896",
-        "resolution": "896x896",
+        "name": "1088x1280",
+        "resolution": "1088x1280",
         "x_normshift": 5.0,
         "x_normfactor": 20.0,
         "y_normshift": 5.0,
@@ -6625,8 +6625,8 @@
     ],
     "DPF": [
       {
-        "name": "896x896",
-        "resolution": "896x896",
+        "name": "1088x1280",
+        "resolution": "1088x1280",
         "NLL_SEGMENTATION": 1.0,
         "nll_coeff_n": [
           1023, 1023, 891, 727, 630, 514, 445, 398, 364, 315,
@@ -6646,8 +6646,8 @@
     ],
     "DPCC": [
       {
-        "name": "896x896",
-        "resolution": "896x896",
+        "name": "1088x1280",
+        "resolution": "1088x1280",
         "register": [
           {
             "name": "ISP_DPCC_LINE_MAD_FAC_1",
@@ -18434,7 +18434,7 @@
               "x": 0,
               "y": 0
             },
-            "width": 896
+            "width": 1088
           },
           "stitchingMode": 0
         },
@@ -18958,7 +18958,7 @@
               "x": 0,
               "y": 0
             },
-            "width": 896
+            "width": 1088
           }
         },
         {
