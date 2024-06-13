@@ -15032,9 +15032,6 @@
       "aeFrontGroundType": 0,
       "aeFaceWeight": 0.5,
       "aeTouchWeight": 0.5,
-      "aGain": [
-        1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0
-      ],
       "antiFlickerMode": 0,
       "dampOver": 0.7,
       "dampOverGain": 1.0,
@@ -15042,14 +15039,20 @@
       "dampUnder": 0.7,
       "dampUnderGain": 1.0,
       "dampUnderRatio": 0.5,
-      "dGain": [
-        1.0, 2.0, 4.0, 8.0, 1.0, 1.0, 1.0, 1.0
-      ],
       "expDecomposeCustom": false,
       "exposureTime": [
         0.005, 0.01, 0.02, 0.03, 0.03, 0.03, 0.03, 0.03
       ],
-      "expTableNum": 0,
+      "aGain": [
+        1.0, 2.0, 4.0, 8.0, 16.0, 1.0, 1.0, 1.0
+      ],
+      "dGain": [
+        1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0
+      ],
+      "ispGain": [
+        1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0
+      ],
+      "expTableNum": 5,
       "expV2WindowWeight": [
         1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
         1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
@@ -15240,9 +15243,6 @@
         0.0, 0.0, 0.0, 0.0, 0.0
       ],
       "frameCalEnable": false,
-      "ispGain": [
-        1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0
-      ],
       "lowLightHdrGain": [
         4.0, 8.0, 16.0, 32.0, 100.0, 0.0, 0.0, 0.0
       ],
@@ -16101,8 +16101,8 @@
       "preferenceCwf": 256,
       "preferenceD65": 256,
       "temptureEnable": false,
-      "awbEnterLockThreshold": 0,
-      "awbEnterUnlockThreshold": 0,
+      "awbEnterLockThreshold": 0.01,
+      "awbEnterUnlockThreshold": 0.01,
       "awbTemWeight": [
         0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
       ],
