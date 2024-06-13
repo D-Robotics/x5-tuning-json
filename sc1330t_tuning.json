@@ -18204,7 +18204,20 @@
       "r": 3.0
     },
     "DUMP": {
-      "registers": null
+      "registers": [
+        {
+          "address": "0x00006100",
+          "isReadAction": true,
+          "type": 0,
+          "value": "0x00000081"
+        },
+        {
+          "address": "0x00006100",
+          "isReadAction": false,
+          "type": 0,
+          "value": "0x00000081"
+        }
+      ]
     },
     "EE_3": {
       "state": 2,
