@@ -16101,6 +16101,184 @@
       "confoundPointTl84Bg": 1.0,
       "confoundPointTl84Rg": 1.0,
       "confoundPointTl84Threshold": 2.0,
+      "confoundPointCustomEnable" : true,
+      "confoundPositionCustom": [
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        },
+        {
+          "customPositionEnable": false,
+          "rg":1,
+          "bg":1,
+          "threshold":2,
+          "weight":1
+        }
+      ],
       "useDamping": true,
       "useManualDampCoff": false,
       "manualDampCoff": 0.5,
