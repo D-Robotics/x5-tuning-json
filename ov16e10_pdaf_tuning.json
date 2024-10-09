@@ -17761,7 +17761,7 @@
         ]
       ],
       "semMode": 0,
-      "setPoint": 30.0,
+      "setPoint": 2.0,
       "targetFilter": 0.5,
       "tolerance": 5.0,
       "wdrContrastMax": 110.0,
@@ -17793,8 +17793,8 @@
 			"cMotionThreshold": 0.5000,
 			"cStableTolerance": 0.2000,
 			"cPointsOfCurve": 12,
-			"maxFocal": 600,
-			"minFocal": 300,
+			"maxFocal": 650,
+			"minFocal": 350,
 			"cPdConfThreshold": 300.0000,
 			"pdShiftThreshold": 10.0000,
 			"deFocusFrameNum": 3,
@@ -17866,39 +17866,39 @@
         ]
       },
       "fir": {
-        "dataShift": 0,
-        "highPassWeight": 0.0,
-        "lowPassWeight": 0.0
+        "dataShift": 12,
+        "highPassWeight": 1.0,
+        "lowPassWeight": 1.0
       },
       "gamma": 2.2,
       "histThreshold": 0,
       "hwRoi": [
-        0, 0, 0, 0
+        0, 0, 3840, 2160
       ],
       "iir": {
-        "dataShift": 0,
-        "highPassWeight": 0.0,
+        "dataShift": 3,
+        "highPassWeight": 1.0,
         "highPassCoeff": [
           [
-            0.0, 0.0, 0.0, 0.0
+            0.573, -1.4474, 0.774, -1.98
           ],
           [
-            0.0, 0.0, 0.0, 0.0
+            0.573, -1.875, 0.915, -1.31
           ],
           [
-            0.0, 0.0, 0.0, 0.0
+            0.217, -1.467, 0.566, 0.0
           ]
         ],
-        "lowPassWeight": 0.0,
+        "lowPassWeight": 1.0,
         "lowPassCoeff": [
           [
-            0.0, 0.0, 0.0, 0.0
+            0.6, -0.445, 0.624, -1.92
           ],
           [
-            0.0, 0.0, 0.0, 0.0
+            0.6, -1.67, 0.823, 0.215
           ],
           [
-            0.0, 0.0, 0.0, 0.0
+            0.383, -1.465, 0.566, 0.0
           ]
         ]
       },
