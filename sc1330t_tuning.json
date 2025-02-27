@@ -17532,6 +17532,10 @@
       "motionFilter": 0.5,
       "motionThreshold": 0.7,
       "performanceOptiMode": 0,
+      "exLightEnable":false,
+      "exLightType":0,
+      "minExpForExlight":0.0010,
+      "maxExpForExlight":1.0000,
       "roiNumber": 0,
       "roiWeight": 0.5,
       "roiWindow": [
@@ -17647,12 +17651,15 @@
       "maxFocal": 600,
       "minFocal": 300,
       "cPdConfThreshold": 300.0000,
-      "pdShiftThreshold": 10.0000,
+      "PdShiftThreshold": 10.0000,
       "deFocusFrameNum": 3,
       "lossConfidenceFrameNum": 3,
       "accurateFocusStep": 5,
       "accurateFocusEnable": false,
-      "pdStablecountMax": 2,
+      "PdStablecountMax": 2,
+      "uphillAllowance": 2,
+      "downhillAllowance": 2,
+      "pdafUnlockThreshold": 20.0000,
       "pdRoiIndex": 0,
       "afmV11RoiNum": 0,
       "afmV11RoiWeight": 1.0000,
@@ -18585,8 +18592,7 @@
           0.0, 0.0, 100.0, 100.0, 1.0
         ]
       ],
-      "useCcOffset": true,
-      "useCcMatrix": true,
+
       "lightWeightLevel": [
         {
           "lightWeightLevelEnable": false,
@@ -18851,6 +18857,9 @@
           "preferenceGainEnable": null
         }
       ]
+    },
+    "ACCM": {
+      "noParameter": 0
     },
     "AWDR_5_2_1": {
       "tables": [
@@ -19922,7 +19931,7 @@
       ]
     },
     "CCM": {
-      "state": 1,
+      "state": 2,
       "ccMatrix": [
         1.8364, -0.5518, -0.2845, -0.4109, 1.6294, -0.2186, 0.0572, -0.8335, 1.7763
       ],
