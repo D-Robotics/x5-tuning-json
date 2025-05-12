@@ -21356,7 +21356,7 @@
       "dpccTh": [
         400, 100, 100, 100
       ],
-      "irThreshold": 512,
+      "irThreshold": 4095,
       "irBayerPattern": 0,
       "lThreshold": 1024,
       "outRgbPattern": 0
