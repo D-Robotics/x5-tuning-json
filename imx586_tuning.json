@@ -3694,7 +3694,12 @@
       "targetFilter": 0.5,
       "tolerance": 5.0,
       "wdrContrastMax": 110.0,
-      "wdrContrastMin": 10.0
+      "wdrContrastMin": 10.0,
+      "aeStrategyMode": 0,
+      "highLightLumathr": 180,
+      "histRatioSlope": 15,
+      "maxHistOffset": 0.5,
+      "lowLightLumathr": 20
     },
     "AES_2": {
       "inputSelect": 1,
