@@ -17305,6 +17305,7 @@
       "aeFaceWeight": 0.5,
       "aeTouchWeight": 0.5,
       "antiFlickerMode": 0,
+      "antiFlickerModeUserDef": 50,
       "dampOver": 0.7,
       "dampOverGain": 1.0,
       "dampOverRatio": 2.0,
@@ -17629,6 +17630,7 @@
     },
     "AES_2": {
       "inputSelect": 1,
+      "windowSetCustomEnable": false,
       "ratio": 1.0,
       "rectangle": {
         "height": 2159,
@@ -17666,6 +17668,8 @@
       "downhillAllowance": 2,
       "pdafUnlockThreshold": 20.0000,
       "pdRoiIndex": 0,
+      "pdShiftThreshold": 0.1,
+      "pdStableCountMax": 2,
       "afmV11RoiNum": 0,
       "afmV11RoiWeight": 1.0000,
       "afmV11RoiWindowWeight": 1.0000,
@@ -18546,7 +18550,7 @@
             256, 256, 256, 256, 256, 256, 256, 256, 256, 256,
             256, 256, 256, 256, 256, 256, 256, 256
           ],
-          "preferenceGainEnable": null
+          "preferenceGainEnable": false
         },
         {
           "brightnessLevel": [
@@ -18561,7 +18565,7 @@
             256, 256, 256, 256, 256, 256, 256, 256, 256, 256,
             256, 256, 256, 256, 256, 256, 256, 256
           ],
-          "preferenceGainEnable": null
+          "preferenceGainEnable": false
         },
         {
           "brightnessLevel": [
@@ -18576,7 +18580,7 @@
             256, 256, 256, 256, 256, 256, 256, 256, 256, 256,
             256, 256, 256, 256, 256, 256, 256, 256
           ],
-          "preferenceGainEnable": null
+          "preferenceGainEnable": false
         },
         {
           "brightnessLevel": [
@@ -18591,7 +18595,7 @@
             256, 256, 256, 256, 256, 256, 256, 256, 256, 256,
             256, 256, 256, 256, 256, 256, 256, 256
           ],
-          "preferenceGainEnable": null
+          "preferenceGainEnable": false
         },
         {
           "brightnessLevel": [
@@ -18606,7 +18610,7 @@
             256, 256, 256, 256, 256, 256, 256, 256, 256, 256,
             256, 256, 256, 256, 256, 256, 256, 256
           ],
-          "preferenceGainEnable": null
+          "preferenceGainEnable": false
         },
         {
           "brightnessLevel": [
@@ -18621,7 +18625,7 @@
             256, 256, 256, 256, 256, 256, 256, 256, 256, 256,
             256, 256, 256, 256, 256, 256, 256, 256
           ],
-          "preferenceGainEnable": null
+          "preferenceGainEnable": false
         },
         {
           "brightnessLevel": [
@@ -18636,7 +18640,7 @@
             256, 256, 256, 256, 256, 256, 256, 256, 256, 256,
             256, 256, 256, 256, 256, 256, 256, 256
           ],
-          "preferenceGainEnable": null
+          "preferenceGainEnable": false
         },
         {
           "brightnessLevel": [
@@ -18651,7 +18655,7 @@
             256, 256, 256, 256, 256, 256, 256, 256, 256, 256,
             256, 256, 256, 256, 256, 256, 256, 256
           ],
-          "preferenceGainEnable": null
+          "preferenceGainEnable": false
         },
         {
           "brightnessLevel": [
@@ -18666,7 +18670,7 @@
             256, 256, 256, 256, 256, 256, 256, 256, 256, 256,
             256, 256, 256, 256, 256, 256, 256, 256
           ],
-          "preferenceGainEnable": null
+          "preferenceGainEnable": false
         },
         {
           "brightnessLevel": [
@@ -18681,7 +18685,7 @@
             256, 256, 256, 256, 256, 256, 256, 256, 256, 256,
             256, 256, 256, 256, 256, 256, 256, 256
           ],
-          "preferenceGainEnable": null
+          "preferenceGainEnable": false
         }
       ]
     },
@@ -19781,7 +19785,10 @@
       "contrast": 1.1,
       "hue": 0.0,
       "saturation": 1.0,
-      "yuvRange": 2
+      "useOutConvMatrix": false,
+      "rgbToyuvMatrix": [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],
+      "yuvRange": 2,
+      "gamut": 0
     },
     "CSM": null,
     "CPD_1_1": {
