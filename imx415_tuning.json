@@ -4139,7 +4139,9 @@
       "fir": {
         "dataShift": 12,
         "highPassWeight": 1.0,
-        "lowPassWeight": 1.0
+        "lowPassWeight": 1.0,
+	"highPassCoeff": [2, 1],
+        "lowPassCoeff": [12, 6, 4, 3]
       },
       "gamma": 2.2,
       "histThreshold": 128,
