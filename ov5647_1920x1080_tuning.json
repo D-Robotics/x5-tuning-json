@@ -15260,6 +15260,10 @@
       "motionFilter": 0.5,
       "motionThreshold": 0.7,
       "performanceOptiMode": 0,
+      "exLightEnable":false,
+      "exLightType":0,
+      "minExpForExlight":0.0010,
+      "maxExpForExlight":1.0000,
       "roiNumber": 1,
       "roiWeight": 0.5,
       "roiWindow": [
@@ -15344,7 +15348,12 @@
       "targetFilter": 0.5,
       "tolerance": 5.0,
       "wdrContrastMax": 110.0,
-      "wdrContrastMin": 10.0
+      "wdrContrastMin": 10.0,
+      "aeStrategyMode": 0,
+      "highLightLumathr": 180,
+      "histRatioSlope": 15,
+      "maxHistOffset": 0.5,
+      "lowLightLumathr": 20
     },
     "AES_2": {
       "inputSelect": 1,
@@ -16336,7 +16345,7 @@
             256, 256, 256, 256, 256, 256, 256, 256, 256, 256,
             256, 256, 256, 256, 256, 256, 256, 256
           ],
-          "preferenceGainEnable": null
+          "preferenceGainEnable": false
         },
         {
           "brightnessLevel": [
@@ -16351,7 +16360,7 @@
             256, 256, 256, 256, 256, 256, 256, 256, 256, 256,
             256, 256, 256, 256, 256, 256, 256, 256
           ],
-          "preferenceGainEnable": null
+          "preferenceGainEnable": false
         },
         {
           "brightnessLevel": [
@@ -16366,7 +16375,7 @@
             256, 256, 256, 256, 256, 256, 256, 256, 256, 256,
             256, 256, 256, 256, 256, 256, 256, 256
           ],
-          "preferenceGainEnable": null
+          "preferenceGainEnable": false
         },
         {
           "brightnessLevel": [
@@ -16381,7 +16390,7 @@
             256, 256, 256, 256, 256, 256, 256, 256, 256, 256,
             256, 256, 256, 256, 256, 256, 256, 256
           ],
-          "preferenceGainEnable": null
+          "preferenceGainEnable": false
         },
         {
           "brightnessLevel": [
@@ -16396,7 +16405,7 @@
             256, 256, 256, 256, 256, 256, 256, 256, 256, 256,
             256, 256, 256, 256, 256, 256, 256, 256
           ],
-          "preferenceGainEnable": null
+          "preferenceGainEnable": false
         },
         {
           "brightnessLevel": [
@@ -16411,7 +16420,7 @@
             256, 256, 256, 256, 256, 256, 256, 256, 256, 256,
             256, 256, 256, 256, 256, 256, 256, 256
           ],
-          "preferenceGainEnable": null
+          "preferenceGainEnable": false
         },
         {
           "brightnessLevel": [
@@ -16426,7 +16435,7 @@
             256, 256, 256, 256, 256, 256, 256, 256, 256, 256,
             256, 256, 256, 256, 256, 256, 256, 256
           ],
-          "preferenceGainEnable": null
+          "preferenceGainEnable": false
         },
         {
           "brightnessLevel": [
@@ -16441,7 +16450,7 @@
             256, 256, 256, 256, 256, 256, 256, 256, 256, 256,
             256, 256, 256, 256, 256, 256, 256, 256
           ],
-          "preferenceGainEnable": null
+          "preferenceGainEnable": false
         },
         {
           "brightnessLevel": [
@@ -16456,7 +16465,7 @@
             256, 256, 256, 256, 256, 256, 256, 256, 256, 256,
             256, 256, 256, 256, 256, 256, 256, 256
           ],
-          "preferenceGainEnable": null
+          "preferenceGainEnable": false
         },
         {
           "brightnessLevel": [
@@ -16471,7 +16480,7 @@
             256, 256, 256, 256, 256, 256, 256, 256, 256, 256,
             256, 256, 256, 256, 256, 256, 256, 256
           ],
-          "preferenceGainEnable": null
+          "preferenceGainEnable": false
         }
       ]
     },
