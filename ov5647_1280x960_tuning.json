@@ -15039,7 +15039,7 @@
       "dampUnder": 0.7,
       "dampUnderGain": 1.0,
       "dampUnderRatio": 0.5,
-      "expDecomposeCustom": true,
+      "expDecomposeCustom": false,
       "exposureTime": [
         0.00209, 0.0200, 0.0200, 0.0200, 0.0200, 0.0200, 0.0200, 0.0200
       ],
