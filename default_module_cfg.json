@@ -45,6 +45,12 @@
         "useCfg": 1,
         "mode": 0, "//":"0: manual mode only"
     },
+    "hist256Info":
+    {
+        "enable": 0,
+        "useCfg": 1,
+        "mode": 0, "//":"0: manual mode only"
+    },
     "gcInfo":
     {
         "enable": 1,
