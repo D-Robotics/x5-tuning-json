@@ -3651,7 +3651,7 @@
       "aeFrontGroundType": 0,
       "aeFaceWeight": 0.5,
       "aeTouchWeight": 0.5,
-      "aGain": [1.0,1.0,1.0,1.0,31.0,10.0,10.0,10.0],
+      "aGain": [1.0,1.0,1.0,1.0,10.0,10.0,10.0,10.0],
       "antiFlickerMode": 0,
       "antiFlickerModeUserDef": 0.0,
       "dampOver": 0.7,
