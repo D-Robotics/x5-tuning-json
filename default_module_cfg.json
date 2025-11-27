@@ -15,6 +15,12 @@
         "useCfg": 1,
         "mode": 0, "//":"0: manual mode only"
     },
+    "afmInfo":
+    {
+        "enable": 1,
+        "useCfg": 1,
+        "mode": 0, "//":"0: manual mode only"
+    },
     "dpccInfo":
     {
         "enable": 0,
