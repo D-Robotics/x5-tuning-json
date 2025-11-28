@@ -4226,8 +4226,8 @@
       "pdafUnlockThreshold": null,
       "cPdConfThreshold": 50.0,
       "cPointsOfCurve": 12,
-      "cStableTolerance": 0.2,
-      "deFocusFrameNum": 3,
+      "cStableTolerance": 0.15,
+      "deFocusFrameNum": 10,
       "lossConfidenceFrameNum": 3,
       "maxFocal": 200,
       "minFocal": 800,
@@ -4235,7 +4235,12 @@
       "pdRoiIndex": 0,
       "pdShiftThreshold": 0.1,
       "pdStableCountMax": 2,
+      "afmVersion": 0,
       "weightWindow": [0.3,0.1,0.2,0.3,0.4,0.5,0.1,0.0,0.0]
+    },
+    "AFM": {
+      "threshold": 4,
+      "afmWindows": [[1300,1000,1300,1000],[1300,1000,1300,1000],[1300,1000,1300,1000]]
     },
     "AFM_3": {
       "bls": 0,
