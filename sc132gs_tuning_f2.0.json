@@ -4143,7 +4143,7 @@
       },
       "gamma": 2.2,
       "histThreshold": 0,
-      "hwRoi": [0,0,0,0],
+      "hwRoi": [0,0,1088,1280],
       "iir": {
         "dataShift": 0,
         "highPassWeight": 0.0,

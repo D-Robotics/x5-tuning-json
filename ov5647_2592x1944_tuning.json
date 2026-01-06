@@ -3759,7 +3759,7 @@
       },
       "gamma": 2.2,
       "histThreshold": 0,
-      "hwRoi": [0,0,0,0],
+      "hwRoi": [0,0,2592,1944],
       "iir": {
         "dataShift": 0,
         "dataShiftV": 3,
