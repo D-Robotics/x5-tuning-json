@@ -4084,6 +4084,10 @@
       "pdStableCountMax": 2,
       "weightWindow": [1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0]
     },
+    "AFM": {
+      "threshold": 4,
+      "afmWindows": [[10,10,10,10],[10,10,10,10],[10,10,10,10]]
+    },
     "AFM_3": {
       "bls": 0,
       "coring": {
