@@ -9,7 +9,7 @@
         "enable": 1,
         "useCfg": 1
     },
-    "wbInfo":
+    "afInfo":
     {
         "enable": 1,
         "useCfg": 1,
@@ -25,7 +25,13 @@
     {
         "enable": 1,
         "useCfg": 1,
-        "mode": 0, "//":"no use, config 0 or 1"
+        "mode": 0, "//":"0: manual mode only"
+    },
+    "wbInfo":
+    {
+        "enable": 1,
+        "useCfg": 1,
+        "mode": 0, "//":"0: manual mode only"
     },
     "dpccInfo":
     {
@@ -54,12 +60,6 @@
     "ccmInfo":
     {
         "enable": 1,
-        "useCfg": 1,
-        "mode": 0, "//":"0: manual mode only"
-    },
-    "hist256Info":
-    {
-        "enable": 0,
         "useCfg": 1,
         "mode": 0, "//":"0: manual mode only"
     },

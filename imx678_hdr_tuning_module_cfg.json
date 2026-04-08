@@ -9,23 +9,16 @@
         "enable": 1,
         "useCfg": 1
     },
+    "hdrInfo":
+    {
+        "enable": 1,
+        "useCfg": 1
+    },
     "wbInfo":
     {
         "enable": 1,
         "useCfg": 1,
         "mode": 0, "//":"0: manual mode only"
-    },
-    "afmInfo":
-    {
-        "enable": 1,
-        "useCfg": 1,
-        "mode": 0, "//":"0: manual mode only"
-    },
-    "afmv3Info":
-    {
-        "enable": 1,
-        "useCfg": 1,
-        "mode": 0, "//":"no use, config 0 or 1"
     },
     "dpccInfo":
     {
@@ -54,12 +47,6 @@
     "ccmInfo":
     {
         "enable": 1,
-        "useCfg": 1,
-        "mode": 0, "//":"0: manual mode only"
-    },
-    "hist256Info":
-    {
-        "enable": 0,
         "useCfg": 1,
         "mode": 0, "//":"0: manual mode only"
     },
