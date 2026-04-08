@@ -3735,10 +3735,13 @@
       "pdShiftThreshold": 0.1,
       "pdStableCountMax": 2,
       "weightWindow": [0.3,0.1,0.2,0.3,0.4,0.5,0.1,0.0,0.0]
+<<<<<<< dev-x5
     },
     "AFM": {
       "threshold": 4,
       "afmWindows": [[10,10,10,10],[10,10,10,10],[10,10,10,10]]
+=======
+>>>>>>> 3.5.0
     },
     "AFM_3": {
       "bls": 0,
@@ -3762,7 +3765,11 @@
       },
       "gamma": 2.2,
       "histThreshold": 0,
+<<<<<<< dev-x5
       "hwRoi": [0,0,1280,960],
+=======
+      "hwRoi": [0,0,0,0],
+>>>>>>> 3.5.0
       "iir": {
         "dataShift": 0,
         "dataShiftV": 3,
